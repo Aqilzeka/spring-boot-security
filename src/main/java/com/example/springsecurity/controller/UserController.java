@@ -10,4 +10,9 @@ public class UserController {
     public String index() {
         return "Index page";
     }
+
+    @GetMapping("/dashboard")
+    public String dashboard() {
+        return "Successfully login to dashboard";
+    }
 }
